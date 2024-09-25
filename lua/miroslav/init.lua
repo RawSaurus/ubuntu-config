@@ -1,2 +1,5 @@
 require("miroslav.remap")
-print("hello from miroslav")
+require("miroslav.packer")
+require'lspconfig'.pyright.setup{}
+require'lspconfig'.jdtls.setup{} 
+
